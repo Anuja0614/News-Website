@@ -1,0 +1,149 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.navbars{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 0;
+    cursor: pointer;
+    background-color:rgb(48, 3, 3);
+
+}
+.navlist{
+    width:70%;
+    display: flex;
+    justify-content: left;
+    background-color: rgb(48, 3, 3);
+
+}
+.right-nav{
+    width: 50%;
+    text-align: right;
+    justify-content: center;
+    margin: 20px;
+    background-color: rgb(48, 3, 3);
+}
+.logo{ align-items: left;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 40px;
+    height: 70%;
+    justify-content: center;
+    padding top: 2px;
+}
+.navlist li{
+    list-style: none;
+    padding: 28px 30px;
+}
+
+
+.navlist li a{
+    text-decoration: none ;
+    color: white;
+    font-size: 22px;
+    
+}
+.navlist li a:hover{
+     color:white;
+}
+#search{
+
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    border-color: rgb(5, 3, 3);
+}
+
+
+.box-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 60%;
+    margin: auto;
+    height: 200px;
+}
+.text-big{
+    color: rgb(17, 13, 13);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24mm;
+    text-align: center;
+    
+}
+
+
+    
+
+.firstsection{
+    height: 100vh;
+}
+.fhalf{
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.shalf{
+    width: 30%;
+}
+.shalf img{
+    width: 80%;
+    border: 7px solid rgb(107, 9, 9);
+    border-radius: 50%;
+    display: block;
+    margin: autos;
+} 
+
+.section{
+    display: flex;
+    max-width: 90%;
+    align-content: center;
+    justify-content: space-evenly;
+    padding: 50px;
+    margin-left: 50px;
+}
+.imgp img{
+    height: 300px;
+    border: 10px solid rgb(104, 9, 9);
+    border-radius: 50%;
+}
+.para{
+    padding: 20px 30px;
+    font-size: 20px;
+
+}
+.fpara{
+    font-size: 20mm;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 30px ;
+}
+.sectionr{
+    flex-direction: row-reverse;
+    display: flex;
+    max-width: 90%;
+    align-content: center;
+    justify-content: space-evenly;
+    padding: 50px;
+    margin-left: 50px;
+}
+
+
+.tcenter{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+   
+}
